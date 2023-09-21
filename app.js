@@ -11,5 +11,5 @@ app.use(express.static(path.join(__dirname, "public")));
 router(app);
 
 const server = http.createServer(app);
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 server.listen(port);
